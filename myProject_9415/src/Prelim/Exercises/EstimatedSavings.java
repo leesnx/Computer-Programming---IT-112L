@@ -4,7 +4,7 @@
  * Activity Name and Number: Optional Exercises 2
  */
 
-package prelim.exercises;
+package Prelim.Exercises;
 
 import java.lang.*;
 import java.util.Scanner;
