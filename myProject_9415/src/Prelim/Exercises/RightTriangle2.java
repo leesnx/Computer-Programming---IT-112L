@@ -4,7 +4,7 @@
  * Activity Name and Number: Prelims Exercise Number 3
  */
 
-package prelim.exercises;
+package Prelim.Exercises;
 
 import java.lang.*; // import statement
 
