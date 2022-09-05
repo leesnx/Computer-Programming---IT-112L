@@ -13,9 +13,11 @@ public class Dispenser { // class declaration
     public static void main(String[] args) { // main method declaration
         Scanner dmc = new Scanner(System.in); // setting up Scanner
 
+        //amount input
         System.out.print("Enter amount to be withdrawn, whole numbers only: ");
         int amount = Integer.parseInt(dmc.nextLine());
 
+        //bill counter
         int otb = amount / 1000;
             amount = amount % 1000;
         int fhb = amount / 500;
@@ -23,10 +25,12 @@ public class Dispenser { // class declaration
         int ohb = amount / 100;
             amount = amount % 100;
 
+        //total bill amount
         double otbc = otb * 1000;
         double fhbc = fhb * 500;
         double ohbc = ohb * 100;
 
+        //final bill count and amount
         int bc = otb + fhb + ohb;
         double bt = otbc + fhbc + ohbc;
 
