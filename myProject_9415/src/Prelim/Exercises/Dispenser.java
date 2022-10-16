@@ -23,7 +23,6 @@ public class Dispenser { // class declaration
         int fhb = amount / 500;
             amount = amount % 500;
         int ohb = amount / 100;
-            amount = amount % 100;
 
         //total bill amount
         double otbc = otb * 1000;
@@ -37,12 +36,10 @@ public class Dispenser { // class declaration
         System.out.println("------------------------------");
         System.out.printf("%s%10s%10s%n","PESO BILLS","QUANTITY","AMOUNT");
         System.out.printf("%s%13d%10.2f%n","1000.00",otb,otbc);
-        System.out.printf("%s%13d%10.2f%n","5000.00",fhb,fhbc);
+        System.out.printf("%s%14d%10.2f%n","500.00",fhb,fhbc);
         System.out.printf("%s%14d%10.2f%n","100.00",ohb,ohbc);
         System.out.println("------------------------------");
         System.out.printf("%s%2d%10.2f%n","Total No. of Bills",bc,bt);
-        System.out.println("------------------------------");
-        System.out.printf("%s%23d%n","Balance",amount);
         System.out.println("------------------------------");
 
     } // end of main method

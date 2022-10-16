@@ -4,7 +4,7 @@
  * Activity Name and Number: Prelims Exercise Number 8
  */
 
-package Prelim.Exercises;
+package prelim.exercises;
 
 import java.util.Scanner;
 import java.lang.*;

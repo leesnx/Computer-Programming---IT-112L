@@ -4,15 +4,12 @@
  * Activity Name and Number: Optional Exercises 5
  */
 
-package Prelim.Exercises;
-
+package prelim.exercises;
 import java.util.Scanner;
 import java.lang.*;
-
 public class TemperatureConverterC {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
-        
         double celsius; // to hold temperature in degrees celsius
         double fahrenheit; // to hold temperature in degrees fahrenheit
         int choice;

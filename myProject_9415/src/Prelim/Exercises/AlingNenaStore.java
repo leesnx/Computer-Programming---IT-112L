@@ -27,7 +27,7 @@ public class AlingNenaStore {
         double uprice = ups.nextDouble();
 
         //Discount
-        System.out.print("Discount: ");
+        System.out.print("Discount (%): ");
         double discount = ups.nextDouble();
 
         //Cash Tendered
